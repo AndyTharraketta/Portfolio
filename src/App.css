@@ -1,3 +1,15 @@
 .app-content {
   padding: 2rem;
 }
+
+.layout-content {
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
