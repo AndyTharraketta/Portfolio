@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">MyApp</div>
+      <div className="logo"><img src="/assets/Smiley.PNG" alt="Hier sollte ein Bild sein" style={{ height: '34px', borderRadius: '25px' }} />{' '}</div>
       <ul className="nav-links">
         <li className={location.pathname === '/' ? 'active' : ''}>
           <Link to="/">Startseite</Link>
