@@ -5,29 +5,11 @@ body {
   color: #333;
 }
 
-.navbar {
-  background-color: #222;
-  color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-}
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-}
 
-.nav-links .active a,
-.nav-links a:hover {
-  text-decoration: underline;
-}
+
+
+
+
+

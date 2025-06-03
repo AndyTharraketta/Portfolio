@@ -2,9 +2,11 @@
   align-items: center;
   background-color: black;
   border-bottom: 1px solid #ccc;
+  color: white;
   display: flex;
   justify-content: space-between;
   padding: 12px 24px;
+  /* width: 100%; */
 }
 
 .navbar-logo {
@@ -28,6 +30,11 @@
 .nav-links li.active a {
   font-weight: bold;
   color: antiquewhite;
+}
+
+.nav-links .active a,
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
 .logout-button {

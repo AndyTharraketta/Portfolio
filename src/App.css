@@ -7,13 +7,6 @@
   padding: 2rem;
 }
 
-.footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
 @media (max-width: 850px){
   .product-container {
       flex-direction: column;
