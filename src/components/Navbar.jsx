@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useAuth } from '../context/AuthContext';
-import "./Navbar.css";
+import { useAuth } from "../context/AuthContext";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const location = useLocation();
@@ -11,9 +11,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo">
         <img
+          className="navbar-logo"
           src="/assets/Smiley.PNG"
           alt="Hier sollte ein Bild sein"
-          style={{ height: "34px", borderRadius: "25px" }}
         />
       </div>
       <ul className="nav-links">
