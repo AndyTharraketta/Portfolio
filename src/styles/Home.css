@@ -1,0 +1,11 @@
+.home-container {
+    justify-content: center;
+}
+
+.home-container h1 {
+    text-align: center;
+}
+
+.home-container p {
+    text-align: left;
+}
