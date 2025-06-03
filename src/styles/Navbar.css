@@ -1,15 +1,15 @@
+.navbar {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
 .navbar-logo {
   height: 34px;
   border-radius: 25px;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 24px;
-  background-color: black;
-  border-bottom: 1px solid #ccc;
 }
 
 .nav-links {
