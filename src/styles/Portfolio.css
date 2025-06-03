@@ -1,0 +1,61 @@
+.portfolio-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .portfolio-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .portfolio-form input,
+  .portfolio-form textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .portfolio-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .portfolio-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .portfolio-list {
+    margin-top: 30px;
+  }
+  
+  .portfolio-project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio-project h3 {
+    margin: 0;
+  }
+  
+  .portfolio-project button {
+    margin-top: 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .portfolio-project button:hover {
+    background-color: #c82333;
+  }
+  
